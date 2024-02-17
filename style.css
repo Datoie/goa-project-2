@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 body {
     display: flex;
@@ -14,6 +15,7 @@ body {
     padding: 30px;
     font-family:"Hanken Grotesk";
     
+    
 
 }
 .main-container{
@@ -22,6 +24,67 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 }
+
+/* ======================= */
+/* giorgi */
+
+
+
+/* =========================
+ */
+
+
+
+
+
+ /* ======================= */
+/* demetre */
+
+.left{
+
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    border: 20px;
+    justify-content: center;
+    gap:20px;
+    color:white;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#result{
+
+    color: hsl(241, 100%, 89%);
+
+}
+
+p{
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.circle{
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 72%, 46%, 0));
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+    font-size: 60px;
+}
+/* =========================
+ */
+
+ 
 
 h1{
     font-size: 25px;
